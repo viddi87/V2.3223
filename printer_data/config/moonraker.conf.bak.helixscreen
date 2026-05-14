@@ -76,14 +76,14 @@ path: ~/crowsnest
 origin: https://github.com/mainsail-crew/crowsnest.git
 install_script: tools/install.sh
 
-#[update_manager KlipperScreen]
-#type: git_repo
-#path: ~/KlipperScreen
-#origin: https://github.com/moggieuk/KlipperScreen-Happy-Hare-Edition.git
-#env: ~/.KlipperScreen-env/bin/python
-#requirements: scripts/KlipperScreen-requirements.txt
-#install_script: scripts/KlipperScreen-install.sh
-#managed_services: KlipperScreen
+[update_manager KlipperScreen]
+type: git_repo
+path: ~/KlipperScreen
+origin: https://github.com/moggieuk/KlipperScreen-Happy-Hare-Edition.git
+env: ~/.KlipperScreen-env/bin/python
+requirements: scripts/KlipperScreen-requirements.txt
+install_script: scripts/KlipperScreen-install.sh
+managed_services: KlipperScreen
 
 [update_manager klipper-backup]
 type: git_repo
@@ -137,14 +137,3 @@ requirements: requirements.txt
 system_dependencies: system-dependencies.json
 primary_branch: main
 managed_services: klipper
-
-# HelixScreen Update Manager
-# Added by HelixScreen installer - enables one-click updates from Mainsail/Fluidd
-# NOTE: type: web is used instead of type: zip as a workaround for
-# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
-# A systemd path unit handles service restart after Moonraker extracts the update.
-[update_manager helixscreen]
-type: web
-channel: stable
-repo: prestonbrown/helixscreen
-path: /home/pi/helixscreen
