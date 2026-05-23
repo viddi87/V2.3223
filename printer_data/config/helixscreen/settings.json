@@ -44,6 +44,18 @@
   "motion": {
     "jog_mode": 1
   },
+  "print_start_history": {
+    "entries": [
+      {
+        "phases": {
+          "7": 58
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779521357,
+        "total": 202
+      }
+    ]
+  },
   "printers": {
     "default": {
       "default_macros": {
@@ -81,7 +93,7 @@
           "material": "ASA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 321.096923828125,
+          "remaining_weight_g": 302.1429443359375,
           "spool_name": "Polyalkemi ASA - ASA Basic Black",
           "spoolman_id": 6,
           "total_weight_g": 1000.0
@@ -475,6 +487,13 @@
   "telemetry_enabled": false,
   "theme": {
     "preset": 0
+  },
+  "thermal": {
+    "rates": {
+      "extruder": {
+        "heat_rate": 1.5842523574829102
+      }
+    }
   },
   "tour": {
     "completed": true,
