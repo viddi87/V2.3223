@@ -53,6 +53,14 @@
         "temp_bucket": 2,
         "timestamp": 1779521357,
         "total": 202
+      },
+      {
+        "phases": {
+          "7": 61
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779525618,
+        "total": 212
       }
     ]
   },
@@ -93,7 +101,7 @@
           "material": "ASA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 302.1429443359375,
+          "remaining_weight_g": 293.3665466308594,
           "spool_name": "Polyalkemi ASA - ASA Basic Black",
           "spoolman_id": 6,
           "total_weight_g": 1000.0
@@ -491,7 +499,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.5842523574829102
+        "heat_rate": 2.4955554008483887
+      },
+      "heater_bed": {
+        "heat_rate": 13.115839958190918
       }
     }
   },
