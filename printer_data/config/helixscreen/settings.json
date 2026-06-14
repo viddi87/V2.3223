@@ -100,21 +100,7 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
-      "filament": {
-        "external_spool": {
-          "assigned": true,
-          "bed_temp": 100,
-          "brand": "Polyalkemi",
-          "color_rgb": 0,
-          "material": "ASA",
-          "nozzle_temp_max": 0,
-          "nozzle_temp_min": 0,
-          "remaining_weight_g": 284.742431640625,
-          "spool_name": "Polyalkemi ASA - ASA Basic Black",
-          "spoolman_id": 6,
-          "total_weight_g": 1000.0
-        }
-      },
+      "filament": {},
       "filament_sensors": {
         "sensors": null
       },
