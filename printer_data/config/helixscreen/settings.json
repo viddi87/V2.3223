@@ -83,6 +83,30 @@
         "temp_bucket": 2,
         "timestamp": 1784446728,
         "total": 191
+      },
+      {
+        "phases": {
+          "7": 58
+        },
+        "temp_bucket": 2,
+        "timestamp": 1784453570,
+        "total": 197
+      },
+      {
+        "phases": {
+          "7": 58
+        },
+        "temp_bucket": 2,
+        "timestamp": 1784457165,
+        "total": 280
+      },
+      {
+        "phases": {
+          "7": 60
+        },
+        "temp_bucket": 2,
+        "timestamp": 1784464279,
+        "total": 215
       }
     ]
   },
@@ -114,7 +138,21 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
-      "filament": {},
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 100,
+          "brand": "Polyalkemi",
+          "color_rgb": 0,
+          "material": "ASA",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "remaining_weight_g": 261.4780578613281,
+          "spool_name": "Polyalkemi ASA - ASA Basic Black",
+          "spoolman_id": 6,
+          "total_weight_g": 1000.0
+        }
+      },
       "filament_sensors": {
         "sensors": null
       },
@@ -510,10 +548,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 4.284877777099609
+        "heat_rate": 5.342005252838135
       },
       "heater_bed": {
-        "heat_rate": 22.40224838256836
+        "heat_rate": 21.05657386779785
       }
     }
   },
