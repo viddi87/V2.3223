@@ -4,7 +4,7 @@
     "toolhead_style": 4
   },
   "brightness": 100,
-  "config_version": 17,
+  "config_version": 19,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -12,6 +12,8 @@
     "dim_sec": 0,
     "drm_device": "",
     "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "sleep_sec": 1800,
     "theme": "dracula",
     "time_format": 1,
@@ -29,6 +31,7 @@
       "d": 0.0,
       "e": 1.0,
       "f": 0.0,
+      "recheck_pending": false,
       "valid": false
     },
     "jitter_threshold": 5,
