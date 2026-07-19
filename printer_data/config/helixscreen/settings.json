@@ -75,6 +75,14 @@
         "temp_bucket": 2,
         "timestamp": 1779527731,
         "total": 194
+      },
+      {
+        "phases": {
+          "7": 34
+        },
+        "temp_bucket": 2,
+        "timestamp": 1784446728,
+        "total": 191
       }
     ]
   },
@@ -143,7 +151,7 @@
             "temperature_sensor nhk",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-07-19T07:05:46Z"
+          "timestamp": "2026-07-19T08:42:01Z"
         },
         "optional": []
       },
@@ -502,7 +510,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 9.070853233337402
+        "heat_rate": 4.284877777099609
       },
       "heater_bed": {
         "heat_rate": 22.40224838256836
