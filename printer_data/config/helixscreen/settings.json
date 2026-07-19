@@ -41,6 +41,9 @@
   },
   "language": "en",
   "led": {
+    "auto_state": {
+      "enabled": null
+    },
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
@@ -140,7 +143,7 @@
             "temperature_sensor nhk",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-06-14T19:08:25Z"
+          "timestamp": "2026-07-19T07:05:46Z"
         },
         "optional": []
       },
@@ -149,6 +152,9 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_state": {
+          "mappings": null
+        },
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
