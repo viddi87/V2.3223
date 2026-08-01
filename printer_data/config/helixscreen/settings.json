@@ -1,10 +1,7 @@
 {
   "active_printer_id": "default",
-  "appearance": {
-    "toolhead_style": 4
-  },
   "brightness": 100,
-  "config_version": 19,
+  "config_version": 21,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -40,12 +37,6 @@
     "touch_device": ""
   },
   "language": "en",
-  "led": {
-    "auto_state": {
-      "enabled": null
-    },
-    "selected_strips": null
-  },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 1
@@ -112,6 +103,9 @@
   },
   "printers": {
     "default": {
+      "appearance": {
+        "toolhead_style": 4
+      },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
         "load_filament": {
@@ -153,9 +147,7 @@
           "total_weight_g": 1000.0
         }
       },
-      "filament_sensors": {
-        "sensors": null
-      },
+      "filament_sensors": {},
       "hardware": {
         "expected": [
           "heater_bed",
@@ -198,9 +190,7 @@
         "hotend": "extruder"
       },
       "leds": {
-        "auto_state": {
-          "mappings": null
-        },
+        "auto_state": {},
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -528,9 +518,7 @@
         }
       },
       "printer_name": "V2.3223",
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
